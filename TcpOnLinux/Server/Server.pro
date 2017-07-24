@@ -18,13 +18,15 @@ SOURCES += main.cpp\
     log.cpp \
     thread.cpp \
     acceptthread.cpp \
-    recvthread.cpp
+    recvthread.cpp \
+    threadpool.cpp
 
 HEADERS  += serverwindow.h \
     tcpserver.h \
     log.h \
     thread.h \
     acceptthread.h \
-    recvthread.h
+    recvthread.h \
+    threadpool.h
 
 FORMS    += serverwindow.ui
